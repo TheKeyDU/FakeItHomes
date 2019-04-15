@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/nav_ithome"
+            android:icon="@drawable/ithome"
+            android:title="IT之家" />
+        <item
+            android:id="@+id/nav_tencent"
+            android:icon="@drawable/tencent_news"
+            android:title="腾讯新闻" />
+        <item
+            android:id="@+id/nav_baidu"
+            android:icon="@drawable/baidu_news"
+            android:title="百度新闻" />
+        <item
+            android:id="@+id/nav_zhihu"
+            android:icon="@drawable/zhihu"
+            android:title="知乎推送" />
+    </group>
+
+
+
+</menu>

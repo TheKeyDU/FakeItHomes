@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:elevation="17dp"
+        app:cardCornerRadius="15dp"
+        android:clickable="true"
+        app:cardElevation="@dimen/appbar_padding_top"
+        app:cardUseCompatPadding="true"
+        android:layout_height="200dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:foreground = "?attr/selectableItemBackground"
+        app:cardBackgroundColor="#e14646"
+        tools:layout_editor_absoluteX="8dp"
+        android:id="@+id/cardView">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="40dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginTop="51dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp" />
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:elevation="17dp"
+
+        app:cardElevation="@dimen/appbar_padding_top"
+        app:cardCornerRadius="15dp"
+        app:cardUseCompatPadding="true"
+        android:layout_height="200dp"
+        tools:layout_editor_absoluteY="0dp"
+        app:cardBackgroundColor="#487a97"
+        android:foreground = "?attr/selectableItemBackground"
+        tools:layout_editor_absoluteX="8dp"
+        android:id="@+id/cardView2"
+        android:layout_below="@id/cardView">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="40dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginTop="51dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp" />
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+
+        android:clickable="true"
+        android:elevation="17dp"
+        app:cardCornerRadius="15dp"
+        app:cardUseCompatPadding="true"
+
+        app:cardElevation="@dimen/appbar_padding_top"
+        android:layout_height="200dp"
+        android:foreground = "?attr/selectableItemBackground"
+        tools:layout_editor_absoluteY="0dp"
+        app:cardBackgroundColor="#e2be2e"
+        tools:layout_editor_absoluteX="8dp"
+        android:id="@+id/cardView3"
+        android:layout_below="@id/cardView2">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="40dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginTop="51dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp" />
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:elevation="15dp"
+                app:cardCornerRadius="15dp"
+
+                android:clickable="true"
+                app:cardUseCompatPadding="true"
+                android:layout_height="200dp"
+
+                app:cardElevation="@dimen/appbar_padding_top"
+                android:foreground = "?attr/selectableItemBackground"
+                tools:layout_editor_absoluteY="0dp"
+                app:cardBackgroundColor="#591ca9"
+                tools:layout_editor_absoluteX="8dp"
+                android:id="@+id/cardView4"
+                android:layout_below="@id/cardView3">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:textSize="40dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:layout_marginTop="51dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="15dp" />
+
+                </RelativeLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

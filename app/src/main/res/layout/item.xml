@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cardview_layout_hight"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#ffffff"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="1dp"
+    android:clickable="true"
+    android:id="@+id/cd"
+    android:translationZ="1dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="1dp"
+    app:cardUseCompatPadding="true"
+    app:cardPreventCornerOverlap="false">
+    >
+
+    <com.dqj.fakeithomes.siv.SmartImageView
+        android:id="@+id/news_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="5dp"
+
+        android:src="@drawable/nv_bg"
+        android:transitionName="img" />
+
+
+
+
+        <TextView
+            android:id="@+id/news_title"
+            android:layout_width="200dp"
+            android:layout_height="102dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:maxLength="34"
+            android:text="小米今日发布小米mix3：高通845 屏占比99% 售价1999起"
+            android:textColor="#464445"
+
+            android:textSize="@dimen/news_title_size"
+            android:transitionName="title" />
+
+        <TextView
+            android:id="@+id/news_from"
+            android:layout_width="@dimen/news_from_width"
+            android:layout_height="@dimen/news_from_heigh"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:maxLength="7"
+            android:text="it之家"
+            android:textColor="#d61200"
+            android:textSize="@dimen/news_from_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/news_time"
+            android:layout_width="@dimen/news_time_width"
+            android:layout_height="@dimen/news_time_heigh"
+          android:layout_marginLeft="180dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="12:24 12-30 2019"
+            android:textColor="#838383"
+            android:textSize="@dimen/news_time_size" />
+
+
+</android.support.v7.widget.CardView>
+

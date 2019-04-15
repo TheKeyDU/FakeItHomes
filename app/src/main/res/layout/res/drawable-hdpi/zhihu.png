@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cardview_layout_hight"
+    android:id="@+id/cardView_news"
+    app:cardPreventCornerOverlap="true"
+    app:cardElevation="@dimen/cardview_elevation"
+    app:cardCornerRadius="@dimen/cardview_cardCorner"
+app:cardBackgroundColor="#e6e6e6"
+    android:layout_margin="1dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    app:cardUseCompatPadding="true"
+    android:paddingTop="5dp"
+
+    cardUseCompatPadding="true"
+    android:foreground = "?attr/selectableItemBackground"
+  >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="@dimen/cardview_img_withhig"
+        android:layout_height="@dimen/cardview_img_withhig"
+        android:src="@drawable/nv_bg"
+        android:layout_marginStart="11dp"
+        android:elevation="50dp"
+        android:transitionName="img"
+        android:id="@+id/news_img"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="@dimen/news_title_width"
+        android:layout_height="@dimen/news_title_heigh"
+        android:fontFamily="sans-serif"
+        android:transitionName="title"
+
+        android:text="小米今日发布小米mix3：高通845 屏占比99% 售价1999起"
+        android:textSize="@dimen/news_title_size"
+        android:textColor="#464445"
+        android:maxLength="34"
+        android:id="@+id/news_title"
+
+        android:layout_alignTop="@+id/news_img"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="@dimen/news_from_width"
+        android:layout_height="@dimen/news_from_heigh"
+        android:text="it之家"
+        android:textSize="@dimen/news_from_size"
+android:gravity="center"
+        android:maxLength="7"
+        android:textColor="#d61200"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:layout_alignStart="@+id/news_title"
+        android:id="@+id/news_from" />
+    <TextView
+        android:layout_width="@dimen/news_time_width"
+        android:layout_height="@dimen/news_time_heigh"
+        android:text="12:24 12-30 2019"
+        android:textSize="@dimen/news_time_size"
+        android:gravity="center"
+android:id="@+id/news_time"
+        android:textColor="#838383"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
