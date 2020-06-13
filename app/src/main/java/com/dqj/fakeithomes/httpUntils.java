@@ -28,13 +28,13 @@ public class httpUntils {
                     case 1:
 
                    //    Log.e("0000000000000000`",killxml(response.body().string()));
-                        return killxml(response.body().string());
+                        return killad(response.body().string());
 
                     case 2:
 
                     //    Log.e("0000000000000000`",killad(response.body().string()));
-                    return killad(response.body().string());
 
+                    return killxml(response.body().string());
                 }}
 
 

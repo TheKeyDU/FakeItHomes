@@ -136,8 +136,8 @@ holder.setclick(new homeadpter.setclick() {
                 @Override
                 public void run() {
                     super.run();
-                    httpUntils.Gohttp(url,2);
-                    final String conetent = httpUntils.code;
+
+                    final String conetent = httpUntils.Gohttp(url,2);
                     //Log.e("------BanerImgUrl",BanerImgUrl);
                     runOnUiThread(new Runnable() {
                         @Override
@@ -164,8 +164,7 @@ holder.setclick(new homeadpter.setclick() {
                     @Override
                     public void run() {
                         super.run();
-                        httpUntils.Gohttp(BanerImgUrl,2);
-                        final String conetent = httpUntils.code;
+                        final String conetent = httpUntils.Gohttp(BanerImgUrl,2);
                         //Log.e("------BanerImgUrl",BanerImgUrl);
                         runOnUiThread(new Runnable() {
                             @Override
